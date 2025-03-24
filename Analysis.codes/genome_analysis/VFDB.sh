@@ -1,0 +1,2 @@
+#VFDB
+	/projects/oh-lab/programs/usearch/usearch -ublast ${inPATH}/.ffn  -db VFDB_setA_pro.fas -evalue 1e-9 -top_hits_only -userout $outPATH_a/setA.txt -userfields query+target+id+evalue+bits+alnlen+ql+tl+qs+ts
